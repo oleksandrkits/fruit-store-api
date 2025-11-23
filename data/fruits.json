@@ -1,0 +1,122 @@
+{
+  "fruits": [
+    {
+      "id": 1,
+      "name": "Orange",
+      "category": "Citrus",
+      "color": "Orange",
+      "price": 0.99,
+      "quantity": 50,
+      "description": "Sweet and juicy orange, rich in vitamin C",
+      "created_at": "2025-11-23T00:00:00",
+      "updated_at": "2025-11-23T00:00:00"
+    },
+    {
+      "id": 2,
+      "name": "Apple",
+      "category": "Pome Fruits",
+      "color": "Red",
+      "price": 0.79,
+      "quantity": 100,
+      "description": "Crisp and delicious red apple",
+      "created_at": "2025-11-23T00:00:00",
+      "updated_at": "2025-11-23T00:00:00"
+    },
+    {
+      "id": 3,
+      "name": "Banana",
+      "category": "Tropical",
+      "color": "Yellow",
+      "price": 0.59,
+      "quantity": 75,
+      "description": "Ripe yellow banana, great source of potassium",
+      "created_at": "2025-11-23T00:00:00",
+      "updated_at": "2025-11-23T00:00:00"
+    },
+    {
+      "id": 4,
+      "name": "Strawberry",
+      "category": "Berries",
+      "color": "Red",
+      "price": 3.99,
+      "quantity": 30,
+      "description": "Fresh strawberries, perfect for desserts",
+      "created_at": "2025-11-23T00:00:00",
+      "updated_at": "2025-11-23T00:00:00"
+    },
+    {
+      "id": 5,
+      "name": "Mango",
+      "category": "Tropical",
+      "color": "Yellow-Orange",
+      "price": 1.99,
+      "quantity": 25,
+      "description": "Sweet tropical mango, ripe and ready to eat",
+      "created_at": "2025-11-23T00:00:00",
+      "updated_at": "2025-11-23T00:00:00"
+    },
+    {
+      "id": 6,
+      "name": "Watermelon",
+      "category": "Melons",
+      "color": "Green/Red",
+      "price": 4.99,
+      "quantity": 10,
+      "description": "Large, refreshing watermelon",
+      "created_at": "2025-11-23T00:00:00",
+      "updated_at": "2025-11-23T00:00:00"
+    },
+    {
+      "id": 7,
+      "name": "Peach",
+      "category": "Stone Fruits",
+      "color": "Orange-Pink",
+      "price": 1.29,
+      "quantity": 40,
+      "description": "Soft, fuzzy peach with sweet flesh",
+      "created_at": "2025-11-23T00:00:00",
+      "updated_at": "2025-11-23T00:00:00"
+    },
+    {
+      "id": 8,
+      "name": "Blueberry",
+      "category": "Berries",
+      "color": "Blue",
+      "price": 4.49,
+      "quantity": 20,
+      "description": "Small but mighty berries, packed with antioxidants",
+      "created_at": "2025-11-23T00:00:00",
+      "updated_at": "2025-11-23T00:00:00"
+    },
+    {
+      "id": 9,
+      "name": "Lemon",
+      "category": "Citrus",
+      "color": "Yellow",
+      "price": 0.69,
+      "quantity": 60,
+      "description": "Tart lemon, perfect for cooking and beverages",
+      "created_at": "2025-11-23T00:00:00",
+      "updated_at": "2025-11-23T00:00:00"
+    },
+    {
+      "id": 10,
+      "name": "Pineapple",
+      "category": "Tropical",
+      "color": "Yellow",
+      "price": 3.49,
+      "quantity": 15,
+      "description": "Sweet and tangy tropical pineapple",
+      "created_at": "2025-11-23T00:00:00",
+      "updated_at": "2025-11-23T00:00:00"
+    }
+  ],
+  "categories": [
+    "Citrus",
+    "Berries",
+    "Tropical",
+    "Stone Fruits",
+    "Pome Fruits",
+    "Melons"
+  ]
+}
