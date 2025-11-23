@@ -37,7 +37,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-The API will start on `http://localhost:5000`
+The API will start on `http://localhost:5001`
 
 ## API Endpoints
 
@@ -61,12 +61,12 @@ The API will start on `http://localhost:5000`
 
 ### Get all fruits
 ```bash
-curl http://localhost:5000/fruits
+curl http://localhost:5001/fruits
 ```
 
 ### Create a new fruit
 ```bash
-curl -X POST http://localhost:5000/fruits \
+curl -X POST http://localhost:5001/fruits \
   -H "Content-Type: application/json" \
   -d '{
     "name": "Grape",
@@ -80,7 +80,7 @@ curl -X POST http://localhost:5000/fruits \
 
 ### Update a fruit
 ```bash
-curl -X PUT http://localhost:5000/fruits/1 \
+curl -X PUT http://localhost:5001/fruits/1 \
   -H "Content-Type: application/json" \
   -d '{
     "price": 1.29,
@@ -90,17 +90,17 @@ curl -X PUT http://localhost:5000/fruits/1 \
 
 ### Delete a fruit
 ```bash
-curl -X DELETE http://localhost:5000/fruits/1
+curl -X DELETE http://localhost:5001/fruits/1
 ```
 
 ### Search fruits
 ```bash
-curl "http://localhost:5000/fruits?search=apple"
+curl "http://localhost:5001/fruits?search=apple"
 ```
 
 ### Filter by category
 ```bash
-curl "http://localhost:5000/fruits?category=Citrus"
+curl "http://localhost:5001/fruits?category=Citrus"
 ```
 
 ## Data Structure

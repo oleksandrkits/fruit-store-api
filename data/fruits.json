@@ -109,6 +109,17 @@
       "description": "Sweet and tangy tropical pineapple",
       "created_at": "2025-11-23T00:00:00",
       "updated_at": "2025-11-23T00:00:00"
+    },
+    {
+      "id": 11,
+      "name": "Grape",
+      "category": "Berries",
+      "color": "Purple",
+      "price": 2.99,
+      "quantity": 50,
+      "description": "Sweet purple grapes",
+      "created_at": "2025-11-23T23:20:20.985796",
+      "updated_at": "2025-11-23T23:20:20.985802"
     }
   ],
   "categories": [
